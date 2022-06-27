@@ -3,14 +3,15 @@ package day10.exer4;
 public class Account {
   private double balance;
 
-  private Account(double init_balance) {
-    this.balance = init_balance;
+  public Account(double init_balance) {
+    this.balance = init_balance; // 余额
   }
 
   public double getBalance() {
     return balance;
   }
 
+  // 存钱
   public void deposit(double amt) {
     if (amt > 0) {
       balance += amt;
@@ -18,6 +19,7 @@ public class Account {
     }
   }
 
+  // 取钱
   public void withdraw(double amt) {
     if(balance >= amt) {
       balance -= amt;
