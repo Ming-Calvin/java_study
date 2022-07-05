@@ -18,7 +18,19 @@ public class Person {
 
   public void walk(int distance) {
     System.out.println("walk" + distance);
+    show();
+    eat();
   }
 
+  private void show() {
+    System.out.println("show");
+  }
 
+  public Object info() {
+    return null;
+  }
+
+  public double test() {
+    return 12.2;
+  }
 }

@@ -20,4 +20,9 @@ public class Cylinder extends Circle {
       return findArea() * height;
   }
 
+  @Override
+  // 返回圆柱表面积
+  public double findArea() {
+    return Math.PI * getRadius() * 2 + 2 * Math.PI * getRadius() * getRadius();
+  }
 }

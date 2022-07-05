@@ -22,4 +22,8 @@ public class Kids extends ManKind{
     this.yearsOld = yearsOld;
   }
 
+  @Override
+  public void employeed() {
+    System.out.println("lll");
+  }
 }
