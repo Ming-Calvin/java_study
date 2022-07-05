@@ -54,7 +54,7 @@ class Person{
 //        this.age = age;
     }
 
-    public void setName(String name) {
+    public void setName(String ntringame) {
         this.name = name;
     }
 

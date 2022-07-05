@@ -2,7 +2,12 @@ package day10.java2;
 
 import day10.exer4.Account;
 
+import java.lang.reflect.Field;
 import java.util.*;
+
+// 导入类中的 **结构**
+import static java.lang.System.*;
+
 /*
 * package
 * 1. 为了更好管理项目中的类, 提供包的概念呢
@@ -23,6 +28,8 @@ import java.util.*;
 * 5. 如果使用的类或接口是java定义的lang包下定义的，则可以省略import结构
 * 6. 如果使用的类和接口是本包下定义的，则可以省略import结构
 * 7. 如果在源文件中，使用了不同包下的同名的类，则必须至少有一个类需要以全类名的方式显示
+* 8. 如果使用“xxx.*"方式表明可以调用xxx包下的所有结构，如果使用xxx子包下的结构，则仍需要显示导入
+* 9. import static : 导入了指定类或接口中的静态结构
 * */
 
 
@@ -42,6 +49,15 @@ public class PackageImportTest {
     System.out.println("hello");
 
     Account account = new Account(1000);
+    // 全类名的方式显示
     day10.exer3.Account account1 = new day10.exer3.Account(1000,2000,3000);
+
+//    Dog dog = new Dog();
+
+    System.out.println("hello");
+
+    out.println("aa");
+
+
   }
 }
