@@ -1,13 +1,13 @@
-package day13.exer1;
+package day13.exer3;
 
 public class GeometricObject {
   protected String color;
   protected double weight;
 
-  public GeometricObject(String color, double weight) {
+  public GeometricObject() {
     super();
-    this.color = color;
-    this.weight = weight;
+    this.color = "white";
+    this.weight = 1.0;
   }
 
   public String getColor() {
@@ -26,7 +26,12 @@ public class GeometricObject {
     this.weight = weight;
   }
 
-  public double findArea() {
-    return 0.0;
-  }
+
+
+
+
+
+
+
+
 }
