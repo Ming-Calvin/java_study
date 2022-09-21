@@ -28,8 +28,8 @@ public class ScoreTest {
 
       // 5.0之前
       // 3.1 v.addElement(Object object)
-//      Integer inScore = new Integer(score);
-//      v.addElement(inScore);  // 多态
+      // Integer inScore = new Integer(score);
+      // v.addElement(inScore);  // 多态
 
       // 5.0之后
       v.addElement(score);
